@@ -14,6 +14,7 @@
 .container .card {
   width: 300px;
   height: 400px;
+  color: white;
   border-radius: 15px;
   background-color: #21192e;
   display: flex;
@@ -34,22 +35,24 @@
   height: 100%;
   width: 100%;
 }
-.container .card__name {
-  color: white;
+.container .card__name, .container .card__profession, .container .card__description {
   font-family: "Quicksand", serif;
+}
+.container .card__name {
   font-size: 25px;
 }
 .container .card__profession {
-  color: white;
-  font-family: "Quicksand", serif;
   font-size: 15px;
 }
 .container .card__description {
-  color: white;
   text-align: center;
-  font-family: "Quicksand", serif;
   font-size: 13px;
   width: 220px;
+}
+.container .card.light-mode {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 /*# sourceMappingURL=index.css.map */

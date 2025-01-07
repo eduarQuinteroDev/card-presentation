@@ -11,6 +11,7 @@
         height: 400px;
     
         // otros estilos
+        color: white;
         border-radius: 15px;
         background-color: #21192e;
         display: flex;
@@ -31,25 +32,28 @@
                 width: 100%;
             }
         }
-        &__name {
-            // border: 1px solid red;
-            color: white;
+
+        &__name,
+        &__profession,
+        &__description {
             font-family: "Quicksand", serif;
+        }
+        &__name {
             font-size: 25px;
         }
         &__profession {
-            // border: 1px solid red;
-            color: white;
-            font-family: "Quicksand", serif;
             font-size: 15px;
         }
         &__description {
-            // border: 1px solid red;
-            color: white;
             text-align: center;
-            font-family: "Quicksand", serif;
             font-size: 13px;
             width: 220px;
+        }
+        // Estilos para modo claro
+        &.light-mode {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
         }
     }
 }
