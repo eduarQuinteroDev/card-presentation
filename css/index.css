@@ -37,7 +37,19 @@
 .container .card__name {
   color: white;
   font-family: "Quicksand", serif;
-  font-size: 17px;
+  font-size: 25px;
+}
+.container .card__profession {
+  color: white;
+  font-family: "Quicksand", serif;
+  font-size: 15px;
+}
+.container .card__description {
+  color: white;
+  text-align: center;
+  font-family: "Quicksand", serif;
+  font-size: 13px;
+  width: 220px;
 }
 
 /*# sourceMappingURL=index.css.map */

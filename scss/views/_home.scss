@@ -25,7 +25,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            overflow: hidden;
+            overflow: hidden;   
             img {
                 height: 100%;
                 width: 100%;
@@ -35,7 +35,21 @@
             // border: 1px solid red;
             color: white;
             font-family: "Quicksand", serif;
-            font-size: 17px;
+            font-size: 25px;
+        }
+        &__profession {
+            // border: 1px solid red;
+            color: white;
+            font-family: "Quicksand", serif;
+            font-size: 15px;
+        }
+        &__description {
+            // border: 1px solid red;
+            color: white;
+            text-align: center;
+            font-family: "Quicksand", serif;
+            font-size: 13px;
+            width: 220px;
         }
     }
 }
